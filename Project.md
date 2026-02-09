@@ -61,19 +61,6 @@
 ### 전체 평가결과
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -134,19 +121,6 @@ eval_ground_truths = [
 </details>
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -426,7 +400,7 @@ eval_ground_truths = [
 
 ## 결론
 
-* Vanilla LLM은 가상 정보에 대해 그럴듯하지만 틀린 답변을 생성하는 경향이 있었음. 반면 RAG를 적용한 모델은 매뉴얼 원문에 기반한 정확한 답변을 일관되게 제공했다.
+* Vanilla LLM은 가상 정보에 대해 그럴듯하지만 틀린 답변을 생성하는 경향이 있었음. 반면 RAG를 적용한 모델은 매뉴얼 원문에 기반한 정확한 답변을 일관되게 제공함.
 
 * answer_relevancy 수치 자체는 두 모델 간 큰 차이가 없었는데(RAG 0.6171 vs Vanilla 0.5688), 이는 Vanilla 모델도 일반화된 답변을 나름 자연스럽게 생성하기 때문인 것으로 예상됨.
 
